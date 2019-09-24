@@ -13,7 +13,7 @@ class Shoe
   
   end
   
-  def brand.uniq
+  def brand
     @brand
   end
 
