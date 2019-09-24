@@ -10,6 +10,7 @@ class Shoe
     unless brand.length > 3 then
     BRANDS << brand.uniq
   end
+  end
   
   def brand=(brand)
     @brand = brand
